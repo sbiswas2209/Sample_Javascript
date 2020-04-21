@@ -21,7 +21,7 @@ switch(choice){
         }
     break;
     case 2:
-        while(i<=100){
+        while(i<=20){
             console.log(i+" x 5 = "+(i++*5));
         }
     break;
