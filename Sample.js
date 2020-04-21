@@ -8,7 +8,7 @@ concat();
 
 
 
-let choice = 1;
+let choice = 2;
 let day = 'Monday';
 let i = 1;
 switch(choice){
@@ -22,7 +22,7 @@ switch(choice){
     break;
     case 2:
         while(i<=100){
-            console.log(i+" x 5 = "+(i*5));
+            console.log(i+" x 5 = "+(i++*5));
         }
     break;
     default:
