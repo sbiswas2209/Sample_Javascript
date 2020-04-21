@@ -1,7 +1,7 @@
 let first_name = "Sagnik";
 let second_name = "Biswas";
 function concat(){
-    let result = first_name.concat(" ",second_name);
+    let result = first_name.concat(" ",second_name).toUpperCase();
     console.log(result);
 }
 concat();
